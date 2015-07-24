@@ -94,6 +94,11 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
+			<groupId>ch.ethz.ganymed</groupId>
+			<artifactId>ganymed-ssh2</artifactId>
+			<version>262</version>
+		</dependency>
+		<dependency>
 			<groupId>org.uncommons</groupId>
 			<artifactId>reportng</artifactId>
 			<version>1.1.4</version>
@@ -124,9 +129,9 @@
 			<version>20080701</version>
 		</dependency>
 		<dependency>
-         <groupId>org.reflections</groupId>
-         <artifactId>reflections</artifactId>
-         <version>0.9.9-RC1</version>
+         	<groupId>org.reflections</groupId>
+         	<artifactId>reflections</artifactId>
+         	<version>0.9.9-RC1</version>
      	</dependency>
      	<dependency>
 		    <groupId>xml-apis</groupId>
