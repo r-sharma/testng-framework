@@ -3,10 +3,10 @@
   <groupId>com.app.framework</groupId>
   <artifactId>Framework</artifactId>
   <versioning>
-    <release>1.4</release>
+    <release>1.5</release>
     <versions>
-      <version>1.4</version>
+      <version>1.5</version>
     </versions>
-    <lastUpdated>20150811061428</lastUpdated>
+    <lastUpdated>20150811164125</lastUpdated>
   </versioning>
 </metadata>
