@@ -4,7 +4,7 @@
 	<groupId>com.app.framework</groupId>
 	<artifactId>Framework</artifactId>
 	<packaging>jar</packaging>
-	<version>3.0.3</version>
+	<version>3.0.4</version>
 	<name>Automation</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -99,8 +99,12 @@
 			                    <receiver>prateek.ladha@ignite.world</receiver>
 			                    <receiver>achal.anand@ignite.world</receiver>
 			                    <receiver>richa.khurana@ignite.world</receiver>
+			                    <receiver>rakesh.sharma@ignite.world</receiver>
+			                    <receiver>manu.jindal@ignite.world</receiver>
+			                    <receiver>mohit.gupta@ignite.world</receiver>
+			                    <receiver>varun.arora@ignite.world</receiver>
 			                </receivers>
-			                <subject>Build Info : ${project.version}</subject>
+			                <subject>Automation framework build info : ${project.version}</subject>
 			                <failonerror>false</failonerror>
 			                <htmlMessage>
 			                    <![CDATA[
