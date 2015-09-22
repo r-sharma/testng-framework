@@ -75,6 +75,45 @@
 	              </execution>
 	            </executions>
 	        </plugin>
+	        <plugin>
+			    <groupId>ch.fortysix</groupId>
+			    <artifactId>maven-postman-plugin</artifactId>
+			    <version>0.1.6</version>
+			    <executions>
+			        <execution>
+			            <id>send_an_email</id>
+			            <phase>deploy</phase>
+			            <goals>
+			                <goal>send-mail</goal>
+			            </goals>
+			            <inherited>true</inherited>
+			            <configuration>
+			                <mailhost>smtp.gmail.com</mailhost>
+			                <mailport>995</mailport>
+			                <mailssl>true</mailssl>
+			                <mailAltConfig>true</mailAltConfig> 
+			                <mailuser>prateek.ladha@ignite.world</mailuser>
+			                <mailpassword>Mar@2015</mailpassword>
+			 
+			                <from>automation@ignite.world</from>
+			                <receivers>
+			                    <receiver>prateek.ladha@ignite.world</receiver>
+			                </receivers>
+			                <subject>Build Info</subject>
+			                <failonerror>false</failonerror>
+			                <htmlMessage>
+			                    <![CDATA[
+			                    <p>Partner, we have a new deployment!</p>
+			                    <br>
+			                    <p>Version: ${version}<p>
+			                    <br>
+			                    <p>Have a nice day.</p>
+			                    ]]> 
+			                </htmlMessage>
+			            </configuration>
+			        </execution>
+			    </executions>
+			</plugin>
         </plugins>
     </build>
 	<dependencies>
