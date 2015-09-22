@@ -94,17 +94,17 @@
 			                <mailAltConfig>true</mailAltConfig> 
 			                <mailuser>prateek.ladha@ignite.world</mailuser>
 			                <mailpassword>Mar@2015</mailpassword>
-			 
 			                <from>automation@ignite.world</from>
 			                <receivers>
 			                    <receiver>prateek.ladha@ignite.world</receiver>
+			                    <receiver>achal.anand@ignite.world</receiver>
+			                    <receiver>richa.khurana@ignite.world</receiver>
 			                </receivers>
 			                <subject>Build Info : ${project.version}</subject>
 			                <failonerror>false</failonerror>
 			                <htmlMessage>
 			                    <![CDATA[
-			                    <p>Partner, we have a new deployment!</p>
-			                    <br>
+			                    <p>Partners, we have a new deployment!</p>
 			                    <p>Have a nice day.</p>
 			                    ]]> 
 			                </htmlMessage>
