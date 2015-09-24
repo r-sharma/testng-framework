@@ -4,7 +4,7 @@
 	<groupId>com.app.framework</groupId>
 	<artifactId>Framework</artifactId>
 	<packaging>jar</packaging>
-	<version>3.0.4</version>
+	<version>3.0.5</version>
 	<name>Automation</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -94,23 +94,21 @@
 			                <mailAltConfig>true</mailAltConfig> 
 			                <mailuser>prateek.ladha@ignite.world</mailuser>
 			                <mailpassword>Mar@2015</mailpassword>
-			                <from>automation@ignite.world</from>
+			                <from>Automation</from>
 			                <receivers>
 			                    <receiver>prateek.ladha@ignite.world</receiver>
 			                    <receiver>achal.anand@ignite.world</receiver>
 			                    <receiver>richa.khurana@ignite.world</receiver>
-			                    <receiver>rakesh.sharma@ignite.world</receiver>
 			                    <receiver>manu.jindal@ignite.world</receiver>
 			                    <receiver>mohit.gupta@ignite.world</receiver>
 			                    <receiver>varun.arora@ignite.world</receiver>
+			                    <receiver>shivani.rawat@ignite.world</receiver>
 			                </receivers>
-			                <subject>Automation framework build info : ${project.version}</subject>
+			                <subject>Automation framework new build version : ${project.version}</subject>
 			                <failonerror>false</failonerror>
 			                <htmlMessage>
 			                    <![CDATA[
-			                    <p>Partners, we have a new deployment!</p>
-			                    <p>Have a nice day.</p>
-			                    ]]> 
+			                    ]]>
 			                </htmlMessage>
 			            </configuration>
 			        </execution>
