@@ -94,7 +94,7 @@
 			                <mailAltConfig>true</mailAltConfig> 
 			                <mailuser>prateek.ladha@ignite.world</mailuser>
 			                <mailpassword>Mar@2015</mailpassword>
-			                <from>Automation</from>
+			                <from>Automation@ignite.world</from>
 			                <receivers>
 			                    <receiver>prateek.ladha@ignite.world</receiver>
 			                    <receiver>achal.anand@ignite.world</receiver>
