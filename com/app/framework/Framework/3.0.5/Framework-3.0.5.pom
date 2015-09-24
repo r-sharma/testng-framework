@@ -82,7 +82,7 @@
 			    <executions>
 			        <execution>
 			            <id>send_an_email</id>
-			            <phase>deploy</phase>
+			            <phase>install</phase>
 			            <goals>
 			                <goal>send-mail</goal>
 			            </goals>
@@ -97,13 +97,13 @@
 			                <from>Automation@ignite.world</from>
 			                <receivers>
 			                    <receiver>prateek.ladha@ignite.world</receiver>
-<!-- 			                    <receiver>achal.anand@ignite.world</receiver> -->
-<!-- 			                    <receiver>richa.khurana@ignite.world</receiver> -->
-<!-- 			                    <receiver>manu.jindal@ignite.world</receiver> -->
-<!-- 			                    <receiver>mohit.gupta@ignite.world</receiver> -->
-<!-- 			                    <receiver>varun.arora@ignite.world</receiver> -->
-<!-- 			                    <receiver>shivani.rawat@ignite.world</receiver> -->
-<!-- 			                    <receiver>rakesh.sharma@ignite.world</receiver> -->
+			                    <receiver>achal.anand@ignite.world</receiver>
+			                    <receiver>richa.khurana@ignite.world</receiver>
+			                    <receiver>manu.jindal@ignite.world</receiver>
+			                    <receiver>mohit.gupta@ignite.world</receiver>
+			                    <receiver>varun.arora@ignite.world</receiver>
+			                    <receiver>shivani.rawat@ignite.world</receiver>
+			                    <receiver>rakesh.sharma@ignite.world</receiver>
 			                </receivers>
 			                <subject>Automation framework new build version : ${project.version}</subject>
 			                <failonerror>false</failonerror>
