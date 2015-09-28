@@ -4,7 +4,7 @@
 	<groupId>com.app.framework</groupId>
 	<artifactId>Framework</artifactId>
 	<packaging>jar</packaging>
-	<version>3.0.5</version>
+	<version>3.0.6</version>
 	<name>Automation</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -82,7 +82,7 @@
 			    <executions>
 			        <execution>
 			            <id>send_an_email</id>
-			            <phase>install</phase>
+			            <phase>deploy</phase>
 			            <goals>
 			                <goal>send-mail</goal>
 			            </goals>
