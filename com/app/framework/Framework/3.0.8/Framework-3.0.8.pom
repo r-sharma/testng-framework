@@ -4,7 +4,7 @@
 	<groupId>com.app.framework</groupId>
 	<artifactId>Framework</artifactId>
 	<packaging>jar</packaging>
-	<version>3.0.7</version>
+	<version>3.0.8</version>
 	<name>Automation</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -233,5 +233,15 @@
             <artifactId>aws-java-sdk</artifactId>
             <version>1.7.9</version>
         </dependency>
+        <dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>3.3</version>
+		</dependency>
 	</dependencies>
 </project>
