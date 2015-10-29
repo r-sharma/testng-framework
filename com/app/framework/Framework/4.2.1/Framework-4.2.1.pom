@@ -4,7 +4,7 @@
 	<groupId>com.app.framework</groupId>
 	<artifactId>Framework</artifactId>
 	<packaging>jar</packaging>
-	<version>4.2</version>
+	<version>4.2.1</version>
 	<name>Automation</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -104,6 +104,7 @@
 			                    <receiver>varun.arora@ignite.world</receiver>
 			                    <receiver>shivani.rawat@ignite.world</receiver>
 			                    <receiver>rakesh.sharma@ignite.world</receiver>
+			                    <receiver>arun.rajput@ignite.world</receiver>
 			                </receivers>
 			                <subject>Automation framework new build version : ${project.version}</subject>
 			                <failonerror>false</failonerror>
