@@ -4,7 +4,7 @@
 	<groupId>com.app.framework</groupId>
 	<artifactId>Framework</artifactId>
 	<packaging>jar</packaging>
-	<version>4.3.4.4</version>
+	<version>4.3.5</version>
 	<name>Automation</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -75,47 +75,47 @@
 	              </execution>
 	            </executions>
 	        </plugin>
-<!-- 	        <plugin> -->
-<!-- 			    <groupId>ch.fortysix</groupId> -->
-<!-- 			    <artifactId>maven-postman-plugin</artifactId> -->
-<!-- 			    <version>0.1.6</version> -->
-<!-- 			    <executions> -->
-<!-- 			        <execution> -->
-<!-- 			            <id>send_an_email</id> -->
-<!-- 			            <phase>deploy</phase> -->
-<!-- 			            <goals> -->
-<!-- 			                <goal>send-mail</goal> -->
-<!-- 			            </goals> -->
-<!-- 			            <inherited>true</inherited> -->
-<!-- 			            <configuration> -->
-<!-- 			                <mailhost>smtp.gmail.com</mailhost> -->
-<!-- 			                <mailport>465</mailport> -->
-<!-- 			                <mailssl>true</mailssl> -->
-<!-- 			                <mailAltConfig>true</mailAltConfig>  -->
-<!-- 			                <mailuser>${mail.username}</mailuser> -->
-<!-- 			                <mailpassword>${mail.password}</mailpassword> -->
-<!-- 			                <from>Automation@ignite.world</from> -->
-<!-- 			                <receivers> -->
-<!-- 			                    <receiver>prateek.ladha@ignite.world</receiver> -->
-<!-- 			                    <receiver>achal.anand@ignite.world</receiver> -->
-<!-- 			                    <receiver>richa.khurana@ignite.world</receiver> -->
-<!-- 			                    <receiver>manu.jindal@ignite.world</receiver> -->
-<!-- 			                    <receiver>mohit.gupta@ignite.world</receiver> -->
-<!-- 			                    <receiver>varun.arora@ignite.world</receiver> -->
-<!-- 			                    <receiver>shivani.rawat@ignite.world</receiver> -->
-<!-- 			                    <receiver>rakesh.sharma@ignite.world</receiver> -->
-<!-- 			                    <receiver>arun.rajput@ignite.world</receiver> -->
-<!-- 			                </receivers> -->
-<!-- 			                <subject>Automation framework new build version : ${project.version}</subject> -->
-<!-- 			                <failonerror>false</failonerror> -->
-<!-- 			                <htmlMessage> -->
-<!-- 			                    <![CDATA[ -->
+	        <plugin>
+			    <groupId>ch.fortysix</groupId>
+			    <artifactId>maven-postman-plugin</artifactId>
+			    <version>0.1.6</version>
+			    <executions>
+			        <execution>
+			            <id>send_an_email</id>
+			            <phase>deploy</phase>
+			            <goals>
+			                <goal>send-mail</goal>
+			            </goals>
+			            <inherited>true</inherited>
+			            <configuration>
+			                <mailhost>smtp.gmail.com</mailhost>
+			                <mailport>465</mailport>
+			                <mailssl>true</mailssl>
+			                <mailAltConfig>true</mailAltConfig> 
+			                <mailuser>${mail.username}</mailuser>
+			                <mailpassword>${mail.password}</mailpassword>
+			                <from>Automation@ignite.world</from>
+			                <receivers>
+			                    <receiver>prateek.ladha@ignite.world</receiver>
+			                    <receiver>achal.anand@ignite.world</receiver>
+			                    <receiver>richa.khurana@ignite.world</receiver>
+			                    <receiver>manu.jindal@ignite.world</receiver>
+			                    <receiver>mohit.gupta@ignite.world</receiver>
+			                    <receiver>varun.arora@ignite.world</receiver>
+			                    <receiver>shivani.rawat@ignite.world</receiver>
+			                    <receiver>rakesh.sharma@ignite.world</receiver>
+			                    <receiver>arun.rajput@ignite.world</receiver>
+			                </receivers>
+			                <subject>Automation framework new build version : ${project.version}</subject>
+			                <failonerror>false</failonerror>
+			                <htmlMessage>
+			                    <![CDATA[
 <!-- 			                    ]]> -->
-<!-- 			                </htmlMessage> -->
-<!-- 			            </configuration> -->
-<!-- 			        </execution> -->
-<!-- 			    </executions> -->
-<!-- 			</plugin> -->
+			                </htmlMessage>
+			            </configuration>
+			        </execution>
+			    </executions>
+			</plugin>
         </plugins>
     </build>
 	<dependencies>
