@@ -185,7 +185,7 @@
                                 <fileSet>
                                     <directory>${project.basedir}/target/docs</directory>
                                     <includes>
-                                        <include>**/changelog.html</include>
+                                        <include>**/changelog.txt</include>
                                     </includes>
                                 </fileSet>
                             </fileSets>
