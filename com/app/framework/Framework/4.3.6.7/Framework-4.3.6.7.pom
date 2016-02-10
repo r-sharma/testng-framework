@@ -149,12 +149,15 @@
 			                <failonerror>false</failonerror>
 			                <htmlMessage>
 			                    <![CDATA[
-			                    	${git.revision}
-			                    	${git.branch}
-			                    	${git.tag}
-			                    	${git.commitsCount}
-			                    	${git.buildnumber}
-			                    	${project.basedir}
+			                    	Implementation-Title: ${project.groupId}.${project.artifactId}<br/>
+			                    	Implementation-Version: ${git.revision}<br/>
+			                    	Specification-Title: ${project.name}<br/>
+			                    	Specification-Version: ${project.version}<br/>
+			                    	X-Git-Branch: ${git.branch}<br/>
+			                    	X-Git-Commits-Count: ${git.commitsCount}<br/>
+			                    	X-Git-Tag: ${git.tag}<br/>
+			                    	X-Git-BuildNumber: ${git.buildnumber} <br/>
+			                    	Project-Base-Directory: ${project.basedir}
  			                    ]]>
 			                </htmlMessage>
 			            </configuration>
