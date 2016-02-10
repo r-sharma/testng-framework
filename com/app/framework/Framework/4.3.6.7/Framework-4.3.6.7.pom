@@ -181,6 +181,14 @@
 			                    	X-Git-ShortRevision: ${git.shortRevision}
  			                    ]]>
 			                </htmlMessage>
+			                <fileSets>
+                                <fileSet>
+                                    <directory>${project.build.directory}/target/docs</directory>
+                                    <includes>
+                                        <include>**/changelog.html</include>
+                                    </includes>
+                                </fileSet>
+                            </fileSets>
 			            </configuration>
 			        </execution>
 			    </executions>
