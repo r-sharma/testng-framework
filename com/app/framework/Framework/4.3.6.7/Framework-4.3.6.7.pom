@@ -183,7 +183,7 @@
 			                </htmlMessage>
 			                <fileSets>
                                 <fileSet>
-                                    <directory>${project.build.directory}/target/docs</directory>
+                                    <directory>${project.basedir}/target/docs</directory>
                                     <includes>
                                         <include>**/changelog.html</include>
                                     </includes>
