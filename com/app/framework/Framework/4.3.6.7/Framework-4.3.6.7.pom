@@ -157,7 +157,8 @@
 			                    	X-Git-Commits-Count: ${git.commitsCount}<br/>
 			                    	X-Git-Tag: ${git.tag}<br/>
 			                    	X-Git-BuildNumber: ${git.buildnumber} <br/>
-			                    	Project-Base-Directory: ${project.basedir}
+			                    	Project-Base-Directory: ${project.basedir}<br/>
+			                    	X-Git-Log: ${git.log}
  			                    ]]>
 			                </htmlMessage>
 			            </configuration>
