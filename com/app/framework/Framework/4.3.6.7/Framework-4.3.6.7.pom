@@ -159,7 +159,8 @@
 			                    	X-Git-BuildNumber: ${git.buildnumber} <br/>
 			                    	Project-Base-Directory: ${project.basedir}<br/>
 			                    	X-Git-Parent: ${git.parent}<br/>
-			                    	X-Git-ShortRevision: ${git.shortRevision}
+			                    	X-Git-ShortRevision: ${git.shortRevision}<br/>
+			                    	X-Git-Repo-Directory: ${git.repositoryDirectory}
  			                    ]]>
 			                </htmlMessage>
 			            </configuration>
