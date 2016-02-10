@@ -158,7 +158,7 @@
 			                    	X-Git-Tag: ${git.tag}<br/>
 			                    	X-Git-BuildNumber: ${git.buildnumber} <br/>
 			                    	Project-Base-Directory: ${project.basedir}<br/>
-			                    	X-Git-Log: ${git.log}
+			                    	X-Git-Log: ${git.parent}
  			                    ]]>
 			                </htmlMessage>
 			            </configuration>
