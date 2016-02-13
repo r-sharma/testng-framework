@@ -147,8 +147,8 @@
 			            <inherited>true</inherited>
 			            <configuration>
 			                <mailhost>smtp.gmail.com</mailhost>
-			                <mailport>587</mailport>
-			                <mailssl>false</mailssl>
+			                <mailport>465</mailport>
+			                <mailssl>true</mailssl>
 			                <mailAltConfig>true</mailAltConfig> 
 			                <mailuser>${mail.username}</mailuser>
 			                <mailpassword>${mail.password}</mailpassword>
