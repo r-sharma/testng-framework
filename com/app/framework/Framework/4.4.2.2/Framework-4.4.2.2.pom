@@ -4,7 +4,7 @@
 	<groupId>com.app.framework</groupId>
 	<artifactId>Framework</artifactId>
 	<packaging>jar</packaging>
-	<version>4.4.2.1</version>
+	<version>4.4.2.2</version>
 	<name>Automation</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -171,14 +171,7 @@
 			                    	Implementation-Title: ${project.groupId}.${project.artifactId}<br/>
 			                    	Implementation-Version: ${git.revision}<br/>
 			                    	Specification-Title: ${project.name}<br/>
-			                    	Specification-Version: ${project.version}<br/>
-			                    	X-Git-Branch: ${git.branch}<br/>
-			                    	X-Git-Commits-Count: ${git.commitsCount}<br/>
-			                    	X-Git-Tag: ${git.tag}<br/>
-			                    	X-Git-BuildNumber: ${git.buildnumber} <br/>
-			                    	Project-Base-Directory: ${project.basedir}<br/>
-			                    	X-Git-Parent: ${git.parent}<br/>
-			                    	X-Git-ShortRevision: ${git.shortRevision}
+			                    	Specification-Version: ${project.version}
  			                    ]]>
 			                </htmlMessage>
 			                <fileSets>
