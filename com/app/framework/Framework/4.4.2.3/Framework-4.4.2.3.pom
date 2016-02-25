@@ -148,7 +148,7 @@
 			            <configuration>
 			                <mailhost>smtp.gmail.com</mailhost>
 			                <mailport>587</mailport>
-			                <mailssl>true</mailssl>
+<!-- 			                <mailssl>true</mailssl> -->
 			                <mailAltConfig>true</mailAltConfig> 
 			                <mailuser>${mail.username}</mailuser>
 			                <mailpassword>${mail.password}</mailpassword>
