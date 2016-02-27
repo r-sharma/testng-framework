@@ -4,7 +4,7 @@
 	<groupId>com.app.framework</groupId>
 	<artifactId>Framework</artifactId>
 	<packaging>jar</packaging>
-	<version>4.4.2.4</version>
+	<version>4.4.2.5</version>
 	<name>Automation</name>
 	<url>http://maven.apache.org</url>
 	<properties>
