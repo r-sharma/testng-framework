@@ -4,7 +4,7 @@
 	<groupId>com.app.framework</groupId>
 	<artifactId>Framework</artifactId>
 	<packaging>jar</packaging>
-	<version>4.4.5.6</version>
+	<version>4.4.5.7</version>
 	<name>Automation</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -152,15 +152,16 @@
 			                <mailAltConfig>true</mailAltConfig> 
 			                <mailuser>${mail.username}</mailuser>
 			                <mailpassword>${mail.password}</mailpassword>
-			                <from>Automation@ignite.world</from>
+			                <from>automation@wynk.in</from>
 			                <receivers>
-			                    <receiver>prateek.ladha@ignite.world</receiver>
-			                    <receiver>richa.khurana@ignite.world</receiver>
-			                    <receiver>manu.jindal@ignite.world</receiver>
-			                    <receiver>mohit.gupta@ignite.world</receiver>
-			                    <receiver>varun.arora@ignite.world</receiver>
-			                    <receiver>shivani.rawat@ignite.world</receiver>
-			                    <receiver>rakesh.sharma@ignite.world</receiver>
+			                    <receiver>prateek.ladha@wynk.in</receiver>
+			                    <receiver>richa.khurana@wynk.in</receiver>
+			                    <receiver>manu.jindal@wynk.in</receiver>
+			                    <receiver>mohit.gupta@wynk.in</receiver>
+			                    <receiver>raunak.ladha@wynk.in</receiver>
+			                    <receiver>shivani.rawat@wynk.in</receiver>
+			                    <receiver>rakesh.sharma@wynk.in</receiver>
+			                    <receiver>nitin.bharadwaj@wynk.in</receiver>
 			                </receivers>
 			                <subject>Automation framework new build version : ${project.version}</subject>
 			                <failonerror>false</failonerror>
