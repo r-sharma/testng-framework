@@ -4,7 +4,7 @@
 	<groupId>com.app.framework</groupId>
 	<artifactId>Framework</artifactId>
 	<packaging>jar</packaging>
-	<version>4.4.6.6</version>
+	<version>4.4.6.6-rakesh</version>
 	<name>Automation</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -154,14 +154,15 @@
 			                <mailpassword>${mail.password}</mailpassword>
 			                <from>automation@wynk.in</from>
 			                <receivers>
-			                    <receiver>prateek.ladha@wynk.in</receiver>
+			                    <!--<receiver>prateek.ladha@wynk.in</receiver>
 			                    <receiver>richa.khurana@wynk.in</receiver>
 			                    <receiver>manu.jindal@wynk.in</receiver>
 			                    <receiver>mohit.gupta@wynk.in</receiver>
 			                    <receiver>raunak.ladha@wynk.in</receiver>
 			                    <receiver>shivani.rawat@wynk.in</receiver>
 			                    <receiver>rakesh.sharma@wynk.in</receiver>
-			                    <receiver>nitin.bharadwaj@wynk.in</receiver>
+			                    <receiver>nitin.bharadwaj@wynk.in</receiver>-->
+			                    <receiver>rakesh.sharma@wynk.in</receiver>
 			                </receivers>
 			                <subject>Automation framework new build version : ${project.version}</subject>
 			                <failonerror>false</failonerror>
