@@ -3,10 +3,10 @@
   <groupId>com.app.framework</groupId>
   <artifactId>Framework</artifactId>
   <versioning>
-    <release>4.4.6.6-rakesh</release>
+    <release>4.4.6.6</release>
     <versions>
-      <version>4.4.6.6-rakesh</version>
+      <version>4.4.6.6</version>
     </versions>
-    <lastUpdated>20160616121232</lastUpdated>
+    <lastUpdated>20160616121449</lastUpdated>
   </versioning>
 </metadata>
